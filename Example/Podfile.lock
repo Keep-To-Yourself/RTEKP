@@ -1,0 +1,16 @@
+PODS:
+  - RichTextEditorKit (0.1.0)
+
+DEPENDENCIES:
+  - RichTextEditorKit (from `../`)
+
+EXTERNAL SOURCES:
+  RichTextEditorKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RichTextEditorKit: db28421fb6910f10822ceb568880ee3008e7e641
+
+PODFILE CHECKSUM: d965f7a9005338e986e6b59bcaa73a8ffa95afbf
+
+COCOAPODS: 1.16.2

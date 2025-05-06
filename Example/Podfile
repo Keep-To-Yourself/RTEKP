@@ -1,26 +1,17 @@
-# Uncomment the next line to define a global platform for your project
 platform :ios, '13.0'
 
 target 'Example' do
-  # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
-  # Pods for Example
-
-  # --- Link to the local RichTextEditorKit pod ---
-  # This tells CocoaPods to use the source code from the directory
-  # containing the RichTextEditorKit.podspec file, which is one level up ('../')
-  # from this ExampleApp directory.
+  
+  # 开发模式：直接使用本地framework源码
+  # 这样源码的任何改动都会立即反映在Example项目中
   pod 'RichTextEditorKit', :path => '../'
-
 end
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
-      # 禁用脚本沙盒
       config.build_settings['ENABLE_USER_SCRIPT_SANDBOXING'] = 'NO'
-      # 其他设置...
     end
   end
 end

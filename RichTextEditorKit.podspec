@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
                        experience for iOS applications, built with Swift and UIKit. Inspired by
                        AztecEditor-iOS. (TODO: Add more detail here)
                        DESC
-  s.homepage         = 'https://github.com/YOUR_GITHUB_USERNAME/RichTextEditorKitProject' # TODO: Replace with your actual repo URL
+  s.homepage         = 'https://github.com/Keep-To-Yourself/RTEKP'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Your Name' => 'your.email@example.com' } # TODO: Replace with your info
+  s.author           = { 'Keep-To-Yourself' => 'yahabib@163.com' }
 
   # ―― Platform Support ――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.platform         = :ios # Specify platform
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # ―― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――― #
   # For actual release, point to your git repo and tag.
   # For local development, this doesn't strictly matter as the ExampleApp's Podfile uses :path
-  s.source           = { :git => 'https://github.com/YOUR_GITHUB_USERNAME/RichTextEditorKitProject.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Keep-To-Yourself/RTEKP.git', :tag => s.version.to_s }
   # TODO: Replace with your actual repo URL when ready to publish
 
   # ―― Source Code Files ――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
   # If you just have loose resources (less common now):
   # s.resources = 'RichTextEditorKit/Resources/**/*'
 
-  # ―― Headers (If needed for Obj-C interop) ――――――――――――――――――――――――――――― #
+  # ―― Headers (If needed for Obj-C interop) ――――――――――――――――――――――――――――――― #
   # If your umbrella header or other public headers are needed.
   # Ensure the header is inside the source_files path or define a headers path.
   # Let's assume you moved RichTextEditorKit.h into RichTextEditorKit/Sources/include/

@@ -4,12 +4,31 @@
 
 ## 安装配置
 
-### CocoaPods
+### 开发者配置
+
+如果你想参与框架开发，建议使用以下方式：
+
+1. 克隆仓库
+```bash
+git clone https://github.com/Keep-To-Yourself/RTEKP.git
+cd RTEKP
+```
+
+2. 安装Example项目依赖
+```bash
+cd Example
+pod install
+```
+
+这种方式会直接链接到本地framework源码，任何源码改动都会立即反映在示例项目中。
+
+### 使用者配置
+
+#### CocoaPods
 
 在Podfile中添加:
-
 ```ruby
-pod 'RichTextEditorKit', :git => 'https://github.com/YOUR_USERNAME/RichTextEditorKit.git'
+pod 'RichTextEditorKit', :git => 'https://github.com/Keep-To-Yourself/RTEKP.git'
 ```
 
 然后执行:
